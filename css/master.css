@@ -1,0 +1,68 @@
+#diamonds{
+  font-size: 27px;
+  color: red;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  border: 3px solid purple;
+  border-radius: 6px;
+  padding: 3px 27px;
+  display: table;
+  background-color: #c3a5d4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#links{
+  width: 100%;
+  text-align: center;
+}
+
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+header{
+  background-color: #be7ae6;
+  padding: 2px;
+  box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+  margin: 0;
+}
+
+body{
+  background-image: linear-gradient(180deg, #033748 15%, #2b454e 30%, #0e3846);
+}
+
+li{
+  display: inline;
+  text-align: center;
+  margin: 0 1em;
+  border: 1px outset silver;
+  font-size: 15px;
+  text-shadow: 1px 1px 1px black;
+  background-color: #ac66d4;
+}
+
+li>a{
+  color: silver;
+  text-decoration: none;
+  padding: 0 1em;
+}
+
+li:hover{
+  cursor: pointer;
+  background-color: #723198;
+  border-style: inset;
+}
+
+ul{
+  padding: 0;
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
+}
