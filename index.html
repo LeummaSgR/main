@@ -1,26 +1,55 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-<link rel="stylesheet" href="css/master.css">
-<link rel="icon" href="imgs/icone.png">
-<title>Lucy in the Sky</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Gammy</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="imgs/icon.png">
 
 </head>
 <body>
   <header>
-    <h1 id="diamonds">With diamonds</h1>
-    <nav id="links">
-      <ul>
-        <li><a href="#">Atividades</a></li>
-        <li><a href="#">Testes</a></li>
-        <li><a href="#">Jogos</a></li>
-        <li><a href="#">Sites</a></li>
-      </ul>
-    </nav>
+    <h1 id="title">Gammy</h1>
   </header>
 
-  <p>ALICE IN CHAINS É MUITO BOM</p>
-  <p><small>sério</small></p>
+  <ul class="sidebar-nav">
+    <li>
+      <a href="#">Jogos</a>
+    </li>
+    <li>
+      <a href="#">Perfil</a>
+    </li>
+    <li>
+      <a href="#">Contato</a>
+    </li>
+    <li>
+      <a href="#">Sobre</a>
+    </li>
+  </ul>
+
+  <a href="#" id="hamburgao"><span>☰</span></a>
+        
+  <main>
+    <aside id="msg-contato">
+      <span id="x">X</span>
+      <p>Tem algum jogo que gostaria que estivesse aqui? Procure nos contatar através do menu lateral.</p>
+    </aside>
+
+    <section id="games">
+      <article class="game-article">
+        <a href="jogo-da-velha.html"><h5 class="game-title">Jogo da velha</h5><img src="imgs/velha.png" alt="O jogo da velha"></a>
+        <p class="description">ALEMANHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+      </article>
+    </section>
+
+  </main>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="script/master.js"></script>
 
 </body>
+
+</html>
